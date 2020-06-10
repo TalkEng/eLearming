@@ -3,7 +3,6 @@ import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:learninge/Models/posts_model.dart';
 import 'package:learninge/utilities/size_config.dart';
-
 typedef void OnError(Exception exception);
 
 void main() {

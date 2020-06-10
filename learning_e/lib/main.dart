@@ -1,7 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:learninge/utilities/stringWidget.dart';
-import 'appModules/demo_list.dart';
 import 'appModules/player_learning/list_view.dart';
 
 
@@ -54,12 +53,6 @@ class _SplashScreenState extends State<SplashScreen> {
                         backgroundColor: Colors.white,
                         radius: 50.0,
                         backgroundImage: ExactAssetImage('assets/notimetodiebe.jpg'),
-
-                        /*  child: Icon(
-                          Icons.content_paste,
-                          color: Colors.grey,
-                          size: 50.0,
-                        ),*/
                       ),
                       Padding(
                         padding: EdgeInsets.only(top: 10.0),

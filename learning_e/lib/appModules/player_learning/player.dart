@@ -45,7 +45,7 @@ class _PlayerState extends State<Player> with SingleTickerProviderStateMixin{
   Post  post;
   _PlayerState(this. post);
 
-  double _value = 0.0;
+  double _value = 00.0;
   void _setValue(double value) {
     setState(() {
       _value = value;
